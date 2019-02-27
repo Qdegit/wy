@@ -1,0 +1,236 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+u, a {
+  text-decoration: none; }
+
+ul, li, ol {
+  list-style: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+.clear_fix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+#topNav {
+  background: #000000;
+  height: 30px; }
+  #topNav nav {
+    width: 1078px;
+    height: 30px;
+    margin: 0 auto; }
+    #topNav nav .l1 {
+      float: left;
+      color: #999999;
+      font-size: 12px;
+      line-height: 30px;
+      padding: 0 10px; }
+      #topNav nav .l1 a {
+        display: block;
+        height: 30px;
+        color: #999999;
+        font-size: 12px; }
+    #topNav nav .le {
+      position: relative; }
+    #topNav nav .lh {
+      position: absolute;
+      display: none;
+      z-index: 20;
+      width: 100px;
+      background: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      text-align: center; }
+    #topNav nav #left {
+      height: 30px;
+      float: left; }
+    #topNav nav #right {
+      width: 550px;
+      height: 30px;
+      float: right; }
+
+#bottom {
+  border-top: 1px solid #ccc;
+  height: 410px; }
+  #bottom #b-c {
+    width: 1078px;
+    margin: 0 auto;
+    height: 410px; }
+    #bottom #b-c #rule {
+      height: 148px;
+      border-bottom: 2px solid #999999; }
+      #bottom #b-c #rule .rule {
+        width: 200px;
+        padding: 48px 34px;
+        height: 52px;
+        float: left; }
+        #bottom #b-c #rule .rule h5 {
+          width: 48px;
+          height: 48px;
+          border: 1px solid #888;
+          border-radius: 50%;
+          float: left;
+          text-align: center;
+          line-height: 48px;
+          font-size: 24px;
+          color: #333;
+          font-weight: 900; }
+        #bottom #b-c #rule .rule h6 {
+          float: left;
+          margin-left: 5px; }
+          #bottom #b-c #rule .rule h6 p {
+            font-size: 18px;
+            margin: 2px 0;
+            font-weight: 900; }
+          #bottom #b-c #rule .rule h6 em {
+            font-size: 12px;
+            line-height: 12px;
+            color: #555; }
+    #bottom #b-c #about {
+      height: 220px;
+      padding-top: 40px; }
+      #bottom #b-c #about h1 {
+        float: left; }
+      #bottom #b-c #about .about {
+        float: left;
+        width: 74px;
+        height: 160px;
+        padding: 0 30px;
+        text-align: center; }
+        #bottom #b-c #about .about h5 {
+          font-size: 18px;
+          margin-bottom: 18px; }
+        #bottom #b-c #about .about a {
+          font-size: 14px;
+          color: #333333;
+          line-height: 29px; }
+          #bottom #b-c #about .about a:hover {
+            text-decoration: underline; }
+      #bottom #b-c #about h2 {
+        float: left; }
+
+#top {
+  height: 140px;
+  position: relative; }
+  #top .t-t {
+    height: 100px;
+    width: 100%;
+    z-index: 99; }
+    #top .t-t h1 {
+      width: 211px;
+      float: left;
+      margin-left: 140px; }
+      #top .t-t h1 img {
+        padding: 16px 0; }
+
+#con {
+  min-height: 300px; }
+  #con #con-c {
+    width: 1078px;
+    min-height: 300px;
+    margin: 0 auto; }
+    #con #con-c h3 {
+      height: 80px;
+      text-align: center;
+      line-height: 80px;
+      display: none; }
+      #con #con-c h3 i {
+        font-size: 50px !important;
+        color: #FF2337; }
+      #con #con-c h3 a {
+        font-size: 16px;
+        color: #FF2337; }
+    #con #con-c .shop-t {
+      height: 20px; }
+      #con #con-c .shop-t :first-child {
+        margin-right: 100px;
+        margin-left: 220px; }
+      #con #con-c .shop-t b {
+        font-size: 10px;
+        color: #CCCCCC;
+        margin-left: 100px; }
+    #con #con-c .shop-c {
+      min-height: 300px; }
+    #con #con-c .shop {
+      min-height: 100px;
+      border: 1px dashed #CCCCCC;
+      margin-bottom: 20px; }
+      #con #con-c .shop p {
+        font-size: 12px;
+        color: #CCCCCC; }
+    #con #con-c .fl {
+      float: left;
+      width: 120px;
+      height: 100px;
+      display: block;
+      padding: 20px 10px 0; }
+    #con #con-c .fl1 {
+      width: 100px;
+      height: 80px; }
+    #con #con-c h4 span {
+      float: left;
+      width: 20px;
+      height: 20px;
+      background: #FFFFFF;
+      text-align: center;
+      line-height: 20px;
+      border-left: 1px solid #888;
+      border-right: 1px solid #888;
+      cursor: pointer; }
+    #con #con-c h4 input {
+      float: left;
+      width: 30px;
+      height: 20px;
+      border: none;
+      text-align: center; }
+    #con #con-c .shop-item input[type="checkbox"] {
+      width: 30px;
+      height: 30px; }
+    #con #con-c #sum {
+      height: 50px; }
+      #con #con-c #sum h5 {
+        float: right; }
+
+footer {
+  height: 110px;
+  background: #333333; }
+  footer .foter {
+    width: 1078px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    color: #C2C2C2; }
+    footer .foter a {
+      font-size: 11px;
+      color: #c2c2c2; }
+      footer .foter a:hover {
+        text-decoration: underline; }
+    footer .foter span {
+      font-size: 11px;
+      color: #C2C2C2; }
+
+/*# sourceMappingURL=shop.css.map */

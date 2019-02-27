@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import "pub.scss";
+//header
+header{
+    height: 100px;
+    header{
+        width: 1078px;margin: 0 auto;
+        h1{
+            width: 211px;float: left;
+                img{
+                    padding: 16px 0;
+                }    
+        }
+        #rule{
+            width: 600px;float: right;
+            .rule{width: 180px;padding: 28px 10px;height: 52px;float: left;
+            h5{width: 36px;height: 36px;border: 1px solid #c32854;border-radius:50% ;float: left;text-align: center;line-height: 36px;font-size: 20px;color: #c32854;font-weight: 700;};
+            h6{float: left;margin-left: 5px;
+                p{font-size: 16px;font-weight: 600;color: #333;}
+                em{font-size:12px;line-height: 12px;color: #555;}
+            }
+            }
+        }
+    }
+}
+
+//中心
+section{
+    height: 520px;
+    article{
+        width: 978px;height: 420px;background: #f8f8f8;margin: 0 auto;
+        padding: 100px 50px;
+        a{width: 400px;height: 235px;float: left;}
+        #login{width: 360px;height: 360px;float: right;position: relative;border: 1px solid #CCCCCC;
+        .reg{width: 360px;height: 360px;
+            .r-t{width: 320px;height: 35px;border-bottom: 1px solid #CCCCCC;padding: 15px 0 0 40px;
+            h6{float: left;font-size: 16;color: #e31436;font-weight: 900;}
+            p{float: right;width: 200px;height: 50px;font-size: 12px;
+                em{float: left;}
+                a{width: 50px;height: 20px;float: left;}
+            }
+            }
+            .r-b{width: 280px;height: 220px;padding: 40px;
+                .tel{width: 270px;height: 34px;border: 1px solid #999;margin-bottom: 10px;border-radius: 5px;
+                    i{float: left;margin: 10px 0 0 5px;font-size: 18px!important;color: #999999;}
+                    input{float: left;height: 34px;border: none;margin-left: 10px;}
+                    button{height: 34px;width: 90px;border: none;background: #F0F0F0;color: #333333;
+                    &:hover{background: #F9F9F9;color: #FF2337;}
+                    }
+                }
+                #btn{height: 34px;width: 270px;background: #FF0D19;color: #FFFDEF;margin-top: 10px;}
+            }
+        }
+        
+        .login{width: 360px;height: 360px;display: none;
+            .l-t{width: 320px;height: 35px;border-bottom: 1px solid #CCCCCC;padding: 15px 0 0 40px;
+            a{width: 160px;height: 35px;font-size: 16;color: #999;font-weight: 900;
+                &:hover{color:#e31436 ;}
+            }
+            }
+            .l-b{width: 280px;height: 200px;padding: 40px;
+                .tel{width: 270px;height: 34px;border: 1px solid #999;margin-bottom: 10px;border-radius: 5px;
+                    i{float: left;margin: 10px 0 0 5px;font-size: 18px!important;color: #999999;}
+                    input{float: left;height: 34px;border: none;margin-left: 10px;}
+                    button{height: 34px;width: 90px;border: none;background: #F0F0F0;color: #333333;
+                    &:hover{background: #F9F9F9;color: #FF2337;}
+                    }
+                }
+                #btn1{height: 34px;width: 270px;background: #FF0D19;color: #FFFDEF;margin-top: 10px;}
+                .l-l{height: 20px;width: 280px;margin-top:80px ;
+                #res{height: 20px;width: 150px;float: right;font-size: 14px;color: red;}
+            }
+   
+            }
+            .l-c{width: 280px;height: 200px;padding: 40px;display: none;
+                .tel{width: 270px;height: 34px;border: 1px solid #999;margin-bottom: 10px;border-radius: 5px;
+                    i{float: left;margin: 10px 0 0 5px;font-size: 18px!important;color: #999999;}
+                    input{float: left;height: 34px;border: none;margin-left: 10px;}
+                    button{height: 34px;width: 90px;border: none;background: #F0F0F0;color: #333333;
+                    &:hover{background: #F9F9F9;color: #FF2337;}
+                    }
+                }
+                #btn2{height: 34px;width: 270px;background: #FF0D19;color: #FFFDEF;margin-top: 10px;}
+                .l-l{height: 20px;width: 280px;margin-top:80px ;
+                #res1{height: 20px;width: 150px;float: right;font-size: 14px;color: red;}
+                }
+            }
+            
+        }
+        
+        
+        }
+    }
+}
+
+//footer
+footer{
+    height: 240px;background: #FFFFFF;
+    .foter{width: 1078px;margin: 0 auto;text-align: center;padding: 20px 0;color: #C2C2C2;
+            a{font-size: 11px;color: #c2c2c2;
+                &:hover{text-decoration: underline}
+            }
+               
+            span{font-size: 11px;color: #C2C2C2;}
+    }
+    }

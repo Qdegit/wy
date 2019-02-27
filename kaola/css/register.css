@@ -1,0 +1,285 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+u, a {
+  text-decoration: none; }
+
+ul, li, ol {
+  list-style: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+.clear_fix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+header {
+  height: 100px; }
+  header header {
+    width: 1078px;
+    margin: 0 auto; }
+    header header h1 {
+      width: 211px;
+      float: left; }
+      header header h1 img {
+        padding: 16px 0; }
+    header header #rule {
+      width: 600px;
+      float: right; }
+      header header #rule .rule {
+        width: 180px;
+        padding: 28px 10px;
+        height: 52px;
+        float: left; }
+        header header #rule .rule h5 {
+          width: 36px;
+          height: 36px;
+          border: 1px solid #c32854;
+          border-radius: 50%;
+          float: left;
+          text-align: center;
+          line-height: 36px;
+          font-size: 20px;
+          color: #c32854;
+          font-weight: 700; }
+        header header #rule .rule h6 {
+          float: left;
+          margin-left: 5px; }
+          header header #rule .rule h6 p {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333; }
+          header header #rule .rule h6 em {
+            font-size: 12px;
+            line-height: 12px;
+            color: #555; }
+
+section {
+  height: 520px; }
+  section article {
+    width: 978px;
+    height: 420px;
+    background: #f8f8f8;
+    margin: 0 auto;
+    padding: 100px 50px; }
+    section article a {
+      width: 400px;
+      height: 235px;
+      float: left; }
+    section article #login {
+      width: 360px;
+      height: 360px;
+      float: right;
+      position: relative;
+      border: 1px solid #CCCCCC; }
+      section article #login .reg {
+        width: 360px;
+        height: 360px; }
+        section article #login .reg .r-t {
+          width: 320px;
+          height: 35px;
+          border-bottom: 1px solid #CCCCCC;
+          padding: 15px 0 0 40px; }
+          section article #login .reg .r-t h6 {
+            float: left;
+            font-size: 16;
+            color: #e31436;
+            font-weight: 900; }
+          section article #login .reg .r-t p {
+            float: right;
+            width: 200px;
+            height: 50px;
+            font-size: 12px; }
+            section article #login .reg .r-t p em {
+              float: left; }
+            section article #login .reg .r-t p a {
+              width: 50px;
+              height: 20px;
+              float: left; }
+        section article #login .reg .r-b {
+          width: 280px;
+          height: 220px;
+          padding: 40px; }
+          section article #login .reg .r-b .tel {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #999;
+            margin-bottom: 10px;
+            border-radius: 5px; }
+            section article #login .reg .r-b .tel i {
+              float: left;
+              margin: 10px 0 0 5px;
+              font-size: 18px !important;
+              color: #999999; }
+            section article #login .reg .r-b .tel input {
+              float: left;
+              height: 34px;
+              border: none;
+              margin-left: 10px; }
+            section article #login .reg .r-b .tel button {
+              height: 34px;
+              width: 90px;
+              border: none;
+              background: #F0F0F0;
+              color: #333333; }
+              section article #login .reg .r-b .tel button:hover {
+                background: #F9F9F9;
+                color: #FF2337; }
+          section article #login .reg .r-b #btn {
+            height: 34px;
+            width: 270px;
+            background: #FF0D19;
+            color: #FFFDEF;
+            margin-top: 10px; }
+      section article #login .login {
+        width: 360px;
+        height: 360px;
+        display: none; }
+        section article #login .login .l-t {
+          width: 320px;
+          height: 35px;
+          border-bottom: 1px solid #CCCCCC;
+          padding: 15px 0 0 40px; }
+          section article #login .login .l-t a {
+            width: 160px;
+            height: 35px;
+            font-size: 16;
+            color: #999;
+            font-weight: 900; }
+            section article #login .login .l-t a:hover {
+              color: #e31436; }
+        section article #login .login .l-b {
+          width: 280px;
+          height: 200px;
+          padding: 40px; }
+          section article #login .login .l-b .tel {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #999;
+            margin-bottom: 10px;
+            border-radius: 5px; }
+            section article #login .login .l-b .tel i {
+              float: left;
+              margin: 10px 0 0 5px;
+              font-size: 18px !important;
+              color: #999999; }
+            section article #login .login .l-b .tel input {
+              float: left;
+              height: 34px;
+              border: none;
+              margin-left: 10px; }
+            section article #login .login .l-b .tel button {
+              height: 34px;
+              width: 90px;
+              border: none;
+              background: #F0F0F0;
+              color: #333333; }
+              section article #login .login .l-b .tel button:hover {
+                background: #F9F9F9;
+                color: #FF2337; }
+          section article #login .login .l-b #btn1 {
+            height: 34px;
+            width: 270px;
+            background: #FF0D19;
+            color: #FFFDEF;
+            margin-top: 10px; }
+          section article #login .login .l-b .l-l {
+            height: 20px;
+            width: 280px;
+            margin-top: 80px; }
+            section article #login .login .l-b .l-l #res {
+              height: 20px;
+              width: 150px;
+              float: right;
+              font-size: 14px;
+              color: red; }
+        section article #login .login .l-c {
+          width: 280px;
+          height: 200px;
+          padding: 40px;
+          display: none; }
+          section article #login .login .l-c .tel {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #999;
+            margin-bottom: 10px;
+            border-radius: 5px; }
+            section article #login .login .l-c .tel i {
+              float: left;
+              margin: 10px 0 0 5px;
+              font-size: 18px !important;
+              color: #999999; }
+            section article #login .login .l-c .tel input {
+              float: left;
+              height: 34px;
+              border: none;
+              margin-left: 10px; }
+            section article #login .login .l-c .tel button {
+              height: 34px;
+              width: 90px;
+              border: none;
+              background: #F0F0F0;
+              color: #333333; }
+              section article #login .login .l-c .tel button:hover {
+                background: #F9F9F9;
+                color: #FF2337; }
+          section article #login .login .l-c #btn2 {
+            height: 34px;
+            width: 270px;
+            background: #FF0D19;
+            color: #FFFDEF;
+            margin-top: 10px; }
+          section article #login .login .l-c .l-l {
+            height: 20px;
+            width: 280px;
+            margin-top: 80px; }
+            section article #login .login .l-c .l-l #res1 {
+              height: 20px;
+              width: 150px;
+              float: right;
+              font-size: 14px;
+              color: red; }
+
+footer {
+  height: 240px;
+  background: #FFFFFF; }
+  footer .foter {
+    width: 1078px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    color: #C2C2C2; }
+    footer .foter a {
+      font-size: 11px;
+      color: #c2c2c2; }
+      footer .foter a:hover {
+        text-decoration: underline; }
+    footer .foter span {
+      font-size: 11px;
+      color: #C2C2C2; }
+
+/*# sourceMappingURL=register.css.map */
